@@ -1,9 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+
+/* 
 *{
   border: 1px solid;
+
+} */
+
+/*For responsive maybe try a media query? to fix the button issue. Do more research*/
+
+body{
+  display: inline-block;
   
 }
 
-img{
-  border-radius: 80%;
-  width:30%;
+nav{
+  height:50%;
+  margin:4rem;
+  /* margin-left:20rem; */
+  width:100%;
+  height:50%;
+  align-items: center;
+  overflow-wrap: break-word;
 }
+
+
+.headImg{
+  border-radius: 80%;
+  width:20%;
+  
+}
+a{
+  text-decoration: none;
+  
+}
+.plan{
+  background-color:#FF764E;
+  color:white;
+  position: relative;
+  padding:2%;
+  margin:5%;
+  border-radius:15%;
+  font-family: 'Roboto Mono', monospace;
+}
+.plan:hover{
+  color:#FF764E;
+  border:2px solid #FF764E;
+  background-color:#fff;
+}
+
+.learn{
+  background-color:#5ED3EB;
+  color:white;
+  position: relative;
+  padding:2%;
+  margin:5%;
+  border-radius:15%;
+  font-family: 'Roboto Mono', monospace;
+}
+.learn:hover{
+  background-color:#fff;
+  color:#5ED3EB;
+  border:2px solid #5ED3EB;
+}
+
+.involve{
+  background-color:#FFCD69;
+  color:white;
+  position: relative;
+  padding:2%;
+  margin:5%;
+  border-radius:15%;
+  font-family: 'Roboto Mono', monospace;
+}
+.involve:hover{
+  background-color:#fff;
+  color:#FFCD69;
+  border:2px solid #FFCD69;
+}
+.YpgHead{
+  display: inline-block;
+  position: relative;
+  /* margin:.2rem; */
+  /* width:20.0rem; */
+  /* margin-left:40%; */
+  margin-left:15%;
+  vertical-align: top;
+  font-family: 'Chelsea Market', cursive;
+  text-align: center;
+}
+.valley{
+  background-color: #DDB9A3;
+  color:white;
+  margin:5%;
+  padding:2%;
+}
+.cImg{
+  width:15%;
+  position:relative;
+  left:40%;
+}
+
+.theRest{
+  font-family: 'Roboto Mono', monospace;
+}
+.fire{
+  text-align:center;
+  margin:5% 25% 5% 25%;
+}
+
+.camp{
+  text-align:center;
+  margin:5% 25% 5% 25%;
+}
+/*fix footer issues*/
+.footer{
+  height:100%;
+  background-image:url("assets/footer_img.jpg");
+  background-size:100%;
+  background-position: center;
+  position: relative;
+  top:100px;
+  height: 200px;
+}
+
+footer{
+  padding-top:15%;
+  padding-left:14%;
+  overflow-wrap: break-word;
+  background-color:#F9E7DC;
+  height:10.0rem;
+}
+
+
+/* ?? .foot{
+  background-image:url(‘https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true’);
+  background-size:cover;
+  background-position:top;
+  height:40vh;
+
+} */
+
+/*Find footer issues*/
+/*margin and padding*/
